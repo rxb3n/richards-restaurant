@@ -3,6 +3,7 @@
 		<div class="footer-container">
 			<div class="footer-right">
 				<h3 class="footer-title">BIENVENUE A RICHARD'S</h3>
+				<img class="footer-logo" src="../assets/logo.png" >
 				<p class="footer-text">
 					Richard's Restaurant. <br />
 					Cuisine Gastronomique Française.

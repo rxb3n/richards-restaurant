@@ -4,6 +4,14 @@
 	background-color: var(--highlight-color);
 }
 
+.footer-logo {
+	position: relative;
+	left: 40%;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 5%;
+}
+
 #footer-section p {
 	padding-bottom: 1rem;
 }

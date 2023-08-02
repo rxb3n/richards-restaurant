@@ -5,12 +5,12 @@
 	background-color: var(--highlight-color);
 	display: flex;
 	flex-direction: row;
-	padding-left: 2rem;
 	transition-timing-function:linear!important; 
 }
 
 .gallery-img {
-	height: 75vh;
+	z-index: -1;
+	height: 100%;
 	width: 100%;
 	transition: 0.1s;
 }

@@ -16,7 +16,7 @@
 
 			<div class="action-img">
 				<img src="../assets/food001.jpg" height="500" width="400">
-				<img src="../assets/pattern-gold.png" height="500" width="200" alt="">
+				<img id="separator" src="../assets/pattern-gold.png" height="500" width="200" alt="">
 				<img src="../assets/food002.jpg" height="500" width="400">
 			</div>
 
