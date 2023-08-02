@@ -16,7 +16,7 @@
 	padding-top: 5%;
 	width: 80vw;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .action-text {
