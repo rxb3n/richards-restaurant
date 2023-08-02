@@ -11,6 +11,10 @@
 	padding: 75px 0;
 }
 
+.modal-close-container {
+	filter: invert();
+}
+
 .menu-box {
 	border: 3px solid var(--secondary-color);
 	display: flex;

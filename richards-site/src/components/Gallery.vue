@@ -25,21 +25,21 @@
 			@swiper="onSwiper"
 			@slideChange="onSlideChange"
 		>
-			<swiper-slide
+			<swiper-slide class="gallery-img-container"
 				><img
 					class="gallery-img"
 					src="../assets/thumbnail_image001.jpg"
 					loading="lazy"
 					alt="Intérieur accueillant du restaurant Canari"
 			/></swiper-slide>
-			<swiper-slide
+			<swiper-slide class="gallery-img-container"
 				><img
 					class="gallery-img"
 					src="../assets/thumbnail_image003.jpg"
 					loading="lazy"
 					alt="Elegant dining au restaurant Canari"
 			/></swiper-slide>
-			<swiper-slide
+			<swiper-slide class="gallery-img-container"
 				><img
 					class="gallery-img"
 					src="../assets/thumbnail_image002.jpg"
@@ -47,7 +47,7 @@
 					alt="Peinture trouvée à l'intérieur du restaurant Canari"
 			/></swiper-slide>
 
-			<swiper-slide
+			<swiper-slide class="gallery-img-container"
 				><img
 					class="gallery-img"
 					src="../assets/thumbnail_image005.jpg"
@@ -56,7 +56,7 @@
 			/></swiper-slide>
 
 			
-			<swiper-slide
+			<swiper-slide class="gallery-img-container"
 				><img
 					class="gallery-img"
 					src="../assets/thumbnail_image006.jpg"
@@ -65,7 +65,7 @@
 			/></swiper-slide>
 
 			
-			<swiper-slide
+			<swiper-slide class="gallery-img-container"
 				><img
 					class="gallery-img"
 					src="../assets/thumbnail_image004.jpg"

@@ -11,17 +11,18 @@
 
 .gallery-img {
 	height: 75vh;
-	width: 30vw;
+	width: 100%;
 	transition: 0.1s;
+}
+
+.gallery-img-container {
+	border-right: 3px solid var(--secondary-color);
 }
 
 .gallery-img:hover {
 	transform: scale(1.1);
 }
 
-.gallery-video {
-	object-fit: cover;
-}
 
 /* RESPONSIVENESS */
 
