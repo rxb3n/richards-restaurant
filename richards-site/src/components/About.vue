@@ -14,10 +14,11 @@
 			</p>
 
 
-			<!-- <div class="action-img">
+			<div class="action-img">
 				<img src="../assets/food001.jpg" height="400">
+				<img src="../assets/pattern-gold.png" height="400" width="200" alt="">
 				<img src="../assets/food002.jpg" height="400">
-			</div> -->
+			</div>
 
 
 		</div>

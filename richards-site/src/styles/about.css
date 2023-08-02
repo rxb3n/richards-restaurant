@@ -11,8 +11,10 @@
 }
 
 .action-img {
+	background-size: contain;
+	background-repeat: no-repeat;
 	padding-top: 5%;
-	width: 100vw;
+	width: 80vw;
 	display: flex;
 	justify-content: space-around;
 }
