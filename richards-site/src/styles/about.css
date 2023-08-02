@@ -44,6 +44,17 @@
 	margin-top: 1rem;
 }
 
+.phone-img {
+	position: relative;
+	top: 1.5vh;
+	right: 1.5vw;
+}
+
+.location-img {
+	position: relative;
+	right: 1.5vw;
+}
+
 @media screen and (max-width: 600px) {
 	.section-title {
 		font-size: 3.5rem;

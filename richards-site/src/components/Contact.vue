@@ -3,11 +3,11 @@
 	<section class="action-container" id="cta-section">
 		<div class="action-text">
 			<h2 class="section-title">REJOIGNEZ-NOUS</h2>
-			<h3 class="section-sub">Saveurs Ouest-Africaines Authentiques</h3>
-			<p class="section-text">
-				Située dans la zone du nouveau CHU, immeuble valencia a droite.
-				<span class="section-text-special"
-					>Tel:(+225) 07 07 56 3197 / (+225) 07 68 79 3974</span
+			<h3 class="section-sub">Cuisine Gastronomique Française</h3>
+			<p class="section-text"> <img class="location-img" src="../assets/location.png" height="50" width="50">
+				Situé au début de la rue Clément Ader.
+				<span class="section-text-special" 
+					><img class="phone-img" src="../assets/phone.png" height="50" width="50">(+225) 07 89 31 63 66</span
 				>
 			</p>
 		</div>

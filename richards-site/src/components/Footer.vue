@@ -2,17 +2,14 @@
 	<section id="footer-section">
 		<div class="footer-container">
 			<div class="footer-right">
-				<h3 class="footer-title">BIENVENUE A CANARI</h3>
+				<h3 class="footer-title">BIENVENUE A RICHARD'S</h3>
 				<p class="footer-text">
-					Bonjour, et bienvenue au restaurant Canari, <br />
-					ou vous pourrez savourer une cuisine africaine authentique et
-					raffinée.
+					Richard's Restaurant. <br />
+					Cuisine Gastronomique Française.
 					<br />
-					Nous sommes heureux de vous accueillir <br />
-					et de vous faire découvrir nos spécialités.<br />
 				</p>
 				<div class="footer-socials">
-					<a href="#">
+					<a href="https://www.facebook.com/richardsresto">
 						<i class="fa-brands fa-facebook-f"></i>
 					</a>
 					<a href="#">
@@ -28,8 +25,10 @@
 				<h3 class="footer-title">HEURES D'OUVERTURES</h3>
 				<div class="hours-lunch">
 					<div class="footer-text-special">
-						<p class="footer-text">Lundi - Dimanche</p>
-						<p class="footer-text">11:00h - 23:00h</p>
+						<p class="footer-text">Dimanche - Jeudi</p>
+						<p class="footer-text-special">12:00-15:00, 19:00-23:00</p>
+						<p class="footer-text">Vendredi - Samedi</p>
+						<p class="footer-text-special">12:00-15:00, 19:00-23:30</p>
 					</div>
 				</div>
 			</div>
@@ -37,10 +36,14 @@
 			<div class="footer-left">
 				<h3 class="footer-title">CONTACT</h3>
 				<p class="footer-text">
-					Situé dans la zone du nouveau CHU immeuble Valencia à droite.
+					Situé au début de la rue Clément Ader.
 				</p>
 				<p class="footer-text footer-text-special">
-					(+225) 07 07 56 3197 / (+225) 07 68 79 3974
+					(+225) 07 89 31 63 66
+				</p>
+
+				<p class="footer-text">
+					richardsresto@gmail.com
 				</p>
 			</div>
 		</div>

@@ -3,7 +3,7 @@
 	<section class="menu-container" id="menu-section">
 		<div class="menu-box">
 			<div class="sauces">
-				<h2 class="menu-title">NOS SAUCES (3000 CFA)</h2>
+				<h2 class="menu-title">PLATS DU JOUR</h2>
 				<div class="menu-item">
 					<p class="item-title">Sauce Gombo (Kopè)</p>
 					<p class="item-description">
@@ -80,7 +80,7 @@
 				<div class="modal-menu">
 					<!-- SAUCES -->
 					<div class="sauces">
-						<h2 class="menu-title">NOS SAUCES (3000 CFA)</h2>
+						<h2 class="menu-title">PLATS DU JOUR</h2>
 						<div class="menu-item">
 							<p class="item-title">Sauce Gombo (Kopè)</p>
 							<p class="item-description">
@@ -144,7 +144,7 @@
 					</div>
 					<!-- ACCOMPAGNEMENTS -->
 					<div class="sides">
-						<h2 class="menu-title">NOS ACCOMPAGNEMENTS (1000 CFA)</h2>
+						<h2 class="menu-title">ACCOMPAGNEMENTS</h2>
 						<div class="menu-item">
 							<p class="item-title">Foutou</p>
 						</div>

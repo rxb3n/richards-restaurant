@@ -15,7 +15,13 @@
 	font-size: 1.25em;
 	font-weight: 500;
 	margin-right: 3rem;
+	transition: 0.25s;
 }
+
+.nav:hover {
+	text-decoration: underline !important;
+}
+
 
 .nav:last-child {
 	margin-right: 0;
@@ -39,6 +45,7 @@
 	margin-right: 4rem;
 	padding-bottom: 30px;
 	padding-top: 30px;
+	transition: 0.5s;
 }
 
 .nav:hover {
