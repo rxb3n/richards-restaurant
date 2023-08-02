@@ -2,11 +2,16 @@
 	<div class="gallery-container">
 		<swiper
 			:modules="modules"
-			:slides-per-view="3"
 			:space-between="0"
-			navigation
-			:pagination="{ clickable: true }"
-			:scrollbar="{ draggable: true }"
+			:grabCursor = "true"
+			:loop="true"
+			:freeMode = "true"
+			:speed ="10000"
+			:freeModeMomentum = "true"
+			:autoplay= "{
+				delay: 1,
+				disableOnInteraction: false
+			}"
 			:breakpoints="{
 				'950': {
 					slidesPerView: 3,
@@ -27,21 +32,6 @@
 					loading="lazy"
 					alt="Intérieur accueillant du restaurant Canari"
 			/></swiper-slide>
-			<swiper-slide>
-				<video
-					class="gallery-img gallery-video"
-					autoplay
-					muted
-					playsinline
-					loop
-				>
-					<source
-						src="../assets/video-main.mp4"
-						type="video/mp4"
-						loading="lazy"
-					/>
-				</video>
-			</swiper-slide>
 			<swiper-slide
 				><img
 					class="gallery-img"
@@ -49,6 +39,32 @@
 					loading="lazy"
 					alt="Elegant dining au restaurant Canari"
 			/></swiper-slide>
+			<swiper-slide
+				><img
+					class="gallery-img"
+					src="../assets/thumbnail_image002.jpg"
+					loading="lazy"
+					alt="Peinture trouvée à l'intérieur du restaurant Canari"
+			/></swiper-slide>
+
+			<swiper-slide
+				><img
+					class="gallery-img"
+					src="../assets/thumbnail_image005.jpg"
+					loading="lazy"
+					alt="Peinture trouvée à l'intérieur du restaurant Canari"
+			/></swiper-slide>
+
+			
+			<swiper-slide
+				><img
+					class="gallery-img"
+					src="../assets/thumbnail_image006.jpg"
+					loading="lazy"
+					alt="Peinture trouvée à l'intérieur du restaurant Canari"
+			/></swiper-slide>
+
+			
 			<swiper-slide
 				><img
 					class="gallery-img"
@@ -63,7 +79,7 @@
 </template>
 <script>
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -90,7 +106,7 @@ export default {
 		return {
 			onSwiper,
 			onSlideChange,
-			modules: [Navigation, Pagination, Scrollbar, A11y],
+			modules: [Navigation, Pagination, Scrollbar, A11y, Autoplay],
 		};
 	},
 };

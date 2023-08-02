@@ -1,7 +1,12 @@
 .gallery-container {
+	border: 2px solid var(--secondary-color);
+	border-left: none;
+	border-right: none;
+	background-color: var(--highlight-color);
 	display: flex;
 	flex-direction: row;
 	padding-left: 2rem;
+	transition-timing-function:linear!important; 
 }
 
 .gallery-img {

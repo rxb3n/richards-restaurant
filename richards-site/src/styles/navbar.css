@@ -172,15 +172,15 @@
 	text-align: start;
 	transition: 0.2s;
 	margin-top: 3rem;
-	color: var(--primary-color);
+	color: var(--tertiary-font-color);
 }
 
 .mobile-element:visited {
-	color: var(--primary-color);
+	color: var(--tertiary-font-color);
 }
 
 .mobile-element:hover {
-	color: var(--default-color);
+	color: var(--tertiary-font-color);
 }
 
 @media screen and (max-width: 925px) {

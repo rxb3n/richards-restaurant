@@ -1,4 +1,5 @@
 .action-container {
+	background-color: var(--highlight-color);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -7,9 +8,11 @@
 	height: 500px;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+
 }
 
 .action-text {
+	color: var(--default-color);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -20,7 +23,7 @@
 .section-title {
 	font-size: 4rem;
 	letter-spacing: 4.7px;
-	color: var(--highlight-color);
+	color: var(--default-color);
 }
 
 .section-sub {
@@ -35,6 +38,8 @@
 	margin-top: 3rem;
 	line-height: var(--lh-mid);
 	max-width: 650px;
+	border: 1px solid var(--secondary-color);
+	padding: 15px;
 }
 
 .section-text-special {
@@ -45,14 +50,20 @@
 }
 
 .phone-img {
+	filter: invert();
 	position: relative;
 	top: 1.5vh;
 	right: 1.5vw;
 }
 
 .location-img {
+	filter: invert();
 	position: relative;
 	right: 1.5vw;
+}
+
+.contact {
+	border: none;
 }
 
 @media screen and (max-width: 600px) {

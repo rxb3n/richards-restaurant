@@ -1,14 +1,66 @@
 .hero-container {
 	height: 100dvh;
 	width: 100dvw;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../assets/thumbnail_image002.jpg);
+	background-color: rgb(83, 79, 79);
+	background-blend-mode: multiply;
+	background:
+		url(../assets/thumbnail_image001.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: cover;
 	color: white;
 	text-align: center;
+	transition: 0.25s;
+	animation: chbg 30s ease infinite alternate;
+}
+
+@keyframes chbg {
+	0% {
+		background:
+		url(../assets/thumbnail_image001.jpg);
+		background-color: rgb(83, 79, 79);
+		background-blend-mode: multiply;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: cover;
+	}
+	20% {
+		background:
+		url(../assets/thumbnail_image002.jpg);
+		background-color: rgb(83, 79, 79);
+		background-blend-mode: multiply;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: cover;
+	}
+	40% {
+		background:
+		url(../assets/thumbnail_image003.jpg);
+		background-color: rgb(83, 79, 79);
+		background-blend-mode: multiply;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: cover;
+	}
+	60% {
+		background:
+		url(../assets/thumbnail_image004.jpg);
+		background-color: rgb(83, 79, 79);
+		background-blend-mode: multiply;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: cover;
+	}
+	80% {
+		background:
+		url(../assets/thumbnail_image005.jpg);
+		background-color: rgb(83, 79, 79);
+		background-blend-mode: multiply;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: cover;
+	}
 }
 
 .hero-text {

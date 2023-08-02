@@ -27,7 +27,7 @@
 	height: 800px;
 	max-height: 80%; /* Hauteur maximale du modal (ajustez selon vos besoins) */
 	overflow-y: auto; /* Ajoute une barre de défilement verticale si nécessaire */
-	background-color: rgba(40, 33, 100, 0.9);
+	background-color: var(--highlight-color);
 	padding: 50px;
 	border-radius: 15px;
 }
