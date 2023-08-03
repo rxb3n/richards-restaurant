@@ -64,10 +64,12 @@
 }
 
 .logo {
-	height: 12vh;
+	height: 8vh;
 	width: auto;
 	margin-left: .75rem;
+	margin-top: .75rem;
 }
+
 
 .dropbtn {
 	background-color: transparent;

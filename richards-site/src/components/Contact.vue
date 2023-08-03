@@ -2,7 +2,7 @@
 	<!-- contact section -->
 	<section class="action-container" id="cta-section">
 		<div class="action-text">
-			<img src="../assets/logo.png" height="150" alt="">
+			<img class="contact-img" src="../assets/logo.png" height="150" alt="">
 			<p class="section-text contact"> <img class="location-img" src="../assets/location.png" height="50" width="50">
 				Situé au début de la rue Clément Ader.
 				<span class="section-text-special" 

@@ -51,6 +51,7 @@
 	font-weight: 600;
 	letter-spacing: var(--ls-mid);
 	margin-bottom: 1rem;
+	color: var(--tertiary-font-color);
 }
 
 .footer-text {
@@ -61,7 +62,7 @@
 .footer-text-special {
 	margin-top: 0.5rem;
 	font-weight: bold;
-	letter-spacing: var(--ls-big);
+	letter-spacing: var(--ls-sm);
 	color: var(--default-color);
 }
 

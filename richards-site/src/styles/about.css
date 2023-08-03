@@ -10,6 +10,10 @@
 	padding-bottom: 2rem;
 }
 
+.contact-img {
+	margin-bottom: -5%;
+}
+
 #separator {
 	filter: opacity(0.8);
 }
@@ -18,7 +22,7 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 5%;
-	width: 80vw;
+	width: 45vw;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 3%;
@@ -53,6 +57,7 @@
 	max-width: 650px;
 	border: 1px solid var(--secondary-color);
 	padding: 15px;
+	color: var(--tertiary-font-color);
 }
 
 .section-text-special {
@@ -80,7 +85,7 @@
 }
 
 .action-title {
-	width: 50vw;
+	width: 40vw;
 	display: flex;
 	justify-content: space-around;
 }
@@ -94,5 +99,9 @@
 		font-size: 1rem;
 		line-height: var(--lh-big);
 		padding-inline: 0.5rem;
+	}
+
+	.action-img {
+		display: none !important;
 	}
 }
